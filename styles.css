@@ -1,21 +1,19 @@
-div {
-    margin: 1%;
-}
-main>span {
-    min-width: 50%;
-}
-main {
+body {
     display: flex;
-    font-size: larger;
+    justify-content: space-between;
 }
-.node {
-    background-color: whitesmoke;
-    border: 1px solid black;
-    margin: 1%;
-    margin-left: 5%;
-    width: 70%;
-    text-align: center;
-    padding: 1%;
-    border-radius: 10px;
-
+section {
+    width: 45%;
+}
+#toDo {
+    padding-left: 8%;
+    padding-top: 1%;
+    height: 50px;
+    width: 100%;
+    margin: 3%;
+    background-color: aliceblue;
+    font-size: large;
+}
+svg {
+    margin: 2%;
 }
